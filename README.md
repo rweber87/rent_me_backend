@@ -1,24 +1,5 @@
-# README
+Rent Me
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rent Me is an ecommerce platform that allows users to either rent out or rent products they may only need once. Users can create accounts and search for specific things to rent whether it be tools or some recreational equipment that they would otherwise have to purchase and keep indefinitely. It also allows users an opportunity to make good use of things they may have purchased in the past that may just be lying around your apartment collecting dust. Think of this as an Air BnB but for things you own.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+![Temparental Demo](/app/assets/rent-me-demo.gif)
