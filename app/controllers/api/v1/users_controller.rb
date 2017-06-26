@@ -16,8 +16,7 @@ class Api::V1::UsersController < ApplicationController
     user = User.find_by_username(params[:username])
     if params[:password] != params[:password_confirmation]
       render json: pw_err
-    elsif
-      user.present?
+    elsif user.present?
       render json: user_error
     else
       user = User.new(user_params)
