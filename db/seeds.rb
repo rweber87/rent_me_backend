@@ -5,12 +5,21 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+User.create(username: 'robbie',
+	password: '123'
+	)
+
+User.create(username: 'sammy',
+	password: '123'
+	)
+
 Product.create(name: 'hammer', 
 	description: 'It hammers things', 
-	category: 'Hardware', owner_id: 2, 
+	category: 'Hardware', 
+	owner_id: 2,
 	image_url: 'https://media.gettyimages.com/photos/hammer-picture-id183759696?b=1&k=6&m=183759696&s=170x170&h=v0F3cIXY4o_eJCd4Gl1fO2kFx2ulqJGWo4m_Jfn7WzU=', 
 	cost_to_rent: 4.00)
-
 
 Product.create(name: 'circular saw', 
 	description: 'It cuts things', 
